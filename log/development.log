@@ -1,0 +1,104 @@
+Started GET "/" for ::1 at 2022-03-11 12:41:58 -0300
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/MARCELLA.FURTADO/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/MARCELLA.FURTADO/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.4ms | Allocations: 671)
+Completed 200 OK in 15ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 6406)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-11 14:37:41 -0300
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/MARCELLA.FURTADO/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/MARCELLA.FURTADO/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.5ms | Allocations: 565)
+Completed 200 OK in 42ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 5115)
+
+
+Started GET "/" for ::1 at 2022-03-11 14:37:57 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/MARCELLA.FURTADO/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/MARCELLA.FURTADO/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.5ms | Allocations: 367)
+Completed 200 OK in 9ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 1125)
+
+
+Started GET "/" for ::1 at 2022-03-11 15:09:38 -0300
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/MARCELLA.FURTADO/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/MARCELLA.FURTADO/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.3ms | Allocations: 565)
+Completed 200 OK in 42ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 5115)
+
+
+Started GET "/welcome" for ::1 at 2022-03-11 15:09:43 -0300
+Processing by WelcomeController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/welcome.html.erb within layouts/application
+  Rendered welcome/welcome.html.erb within layouts/application (Duration: 0.3ms | Allocations: 118)
+  Rendered layout layouts/application.html.erb (Duration: 278.5ms | Allocations: 93406)
+Completed 200 OK in 283ms (Views: 281.2ms | ActiveRecord: 0.0ms | Allocations: 94360)
+
+
+Started GET "/rails/info/routes" for ::1 at 2022-03-11 15:10:03 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /home/MARCELLA.FURTADO/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/templates/layouts/application.html.erb
+  Rendering /home/MARCELLA.FURTADO/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/MARCELLA.FURTADO/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/actionpack-7.0.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb [31 times] (Duration: 8.0ms | Allocations: 3809)
+  Rendered /home/MARCELLA.FURTADO/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/actionpack-7.0.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 2.3ms | Allocations: 1367)
+  Rendered /home/MARCELLA.FURTADO/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 14.3ms | Allocations: 8482)
+  Rendered layout /home/MARCELLA.FURTADO/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/templates/layouts/application.html.erb (Duration: 14.8ms | Allocations: 8814)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 9718)
+
+
+Started GET "/" for ::1 at 2022-03-11 15:13:19 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/MARCELLA.FURTADO/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/MARCELLA.FURTADO/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/railties-7.0.2.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.9ms | Allocations: 367)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 1123)
+
+
+Started GET "/welcome" for ::1 at 2022-03-11 15:13:22 -0300
+Processing by WelcomeController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/welcome.html.erb within layouts/application
+  Rendered welcome/welcome.html.erb within layouts/application (Duration: 0.3ms | Allocations: 116)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2651)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 3492)
+
+
+Started GET "/welcome" for ::1 at 2022-03-11 15:13:48 -0300
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WelcomeController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/welcome.html.erb within layouts/application
+  Rendered welcome/welcome.html.erb within layouts/application (Duration: 5.3ms | Allocations: 305)
+  Rendered layout layouts/application.html.erb (Duration: 161.3ms | Allocations: 34366)
+Completed 200 OK in 191ms (Views: 170.4ms | ActiveRecord: 0.0ms | Allocations: 39057)
+
+
+Started GET "/" for ::1 at 2022-03-11 15:13:51 -0300
+Processing by WelcomeController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/welcome.html.erb within layouts/application
+  Rendered welcome/welcome.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 2330)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 2585)
+
+
+Started GET "/" for ::1 at 2022-03-11 15:13:54 -0300
+Processing by WelcomeController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/welcome.html.erb within layouts/application
+  Rendered welcome/welcome.html.erb within layouts/application (Duration: 0.0ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2344)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 2598)
+
+
+Started GET "/" for ::1 at 2022-03-11 15:14:45 -0300
+Processing by WelcomeController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/welcome.html.erb within layouts/application
+  Rendered welcome/welcome.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 13498)
+Completed 200 OK in 19ms (Views: 18.7ms | Allocations: 14129)
+
+
